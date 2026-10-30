@@ -1,0 +1,29 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.hero {
+    /*
+    * Created with https://www.css-gradient.com
+    * Gradient link: https://www.css-gradient.com/?blobs=64ffda@67,79;7c4dff@16,50;18ffff@67,21&base=0a1f2e&gt=m&from=css
+    */
+    background: #0A1F2E;
+    background: radial-gradient(at 67% 79%, #64FFDA, transparent 70%), radial-gradient(at 16% 50%, #7C4DFF, transparent 70%), radial-gradient(at 67% 21%, #18FFFF, transparent 70%), #0A1F2E;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+.hero h1{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+}
+.hero p{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
